@@ -1,5 +1,5 @@
 # Xelasrecords' AO3 Site Skins
-IMPORTANT: Complete information and preview on the skin's features are on my Tumblr [@xelasrecords](https://xelasrecords.tumblr.com/). Drop me an ask there if you encounter any issues.
+**IMPORTANT:** Complete information and preview on the skin's features are on my Tumblr [@xelasrecords](https://xelasrecords.tumblr.com/). Drop me an ask there if you encounter any issues.
 
 ### Tutorial:
 1. Select the desired [skin-name].css from my Github and copy the code.
