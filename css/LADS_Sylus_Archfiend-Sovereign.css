@@ -536,6 +536,10 @@ p.kudos {
   background-size: 42px;
 }
 
+.draft {
+  border: 2px dashed #efd4ba;
+}
+
 #footer {
   background: #5f2424;
   color: #efd4ba;
