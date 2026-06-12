@@ -170,7 +170,7 @@ ul.notes a,
 .comment_error a,
 .kudos_error a,
 .alert.flash a {
-  color: #5f2424;
+  color: #5f2424 !important;
   font-weight: bold;
 }
 
