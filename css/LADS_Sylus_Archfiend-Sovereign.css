@@ -1,0 +1,549 @@
+.javascript {
+  background: #2a0c0c;
+}
+
+#workskin {
+  font-size: 130%;
+}
+
+#main a,
+#main .heading {
+  color: #efd4ba;
+}
+
+#main a:hover {
+  background: #5f2424;
+}
+
+#header {
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/xelasrecords/ao3-skins/main/img/LADS_Sylus_Archfiend-Sovereign_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center 19%;
+  background-size: cover;
+  min-height: 150px;
+}
+
+#header .logo {
+  content: url("https://raw.githubusercontent.com/xelasrecords/ao3-skins/main/img/LADS_Sylus_Emoji_Mephisto_1.png");
+  margin-right: 5px;
+}
+
+#header .heading {
+  height: 12em;
+}
+
+#header .heading a {
+  color: #efd4ba;
+}
+
+#header .primary {
+  display: flow;
+  align-items: center;
+  margin-bottom: 0px;
+  background: #5f2424;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#header .primary .dropdown-toggle {
+  padding-top: 6px;
+}
+
+#header form.search input[type="submit"],
+span.submit.actions input.button {
+  display: none !important;
+}
+
+#header input,
+#header #search>*,
+#header #search .submit {
+  background: transparent !important;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #2a0c0c;
+  color: #efd4ba !important;
+  border: 1px solid #2a0c0c;
+}
+
+#header #search .text,
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul,
+.autocomplete .notice {
+  box-shadow: none;
+  background: #2a0c0c;
+  color: #efd4ba !important;
+  border: 1px solid #efd4ba;
+}
+
+.autocomplete .notice {
+  border: none;
+}
+
+.autocomplete div.dropdown li:hover {
+  background: #5f2424;
+  color: #efd4ba;
+}
+
+#header #search .text {
+  width: 11em;
+  background: #2a0c0c !important;
+}
+
+#header #search:focus {
+  box-shadow: none;
+}
+
+#greeting p.icon {
+  box-shadow: none;
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.4));
+  -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.4));
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #efd4ba !important;
+}
+
+#greeting a.dropdown-toggle {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #2a0c0c;
+}
+
+.dropdown-menu li,
+.menu .dropdown-menu li {
+  border-bottom: 1px solid #efd4ba !important;
+}
+
+#outer.wrapper {
+  background: #2a0c0c;
+  color: #efd4ba;
+}
+
+p.muted.notice {
+  display: none;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+.event .userstuff {
+  background: #5f2424;
+  border: 1px solid #efd4ba;
+}
+
+.comment {
+  color: #efd4ba;
+  background: #2a0c0c;
+  border: 1px solid #efd4ba !important;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  color: #5f2424;
+  background: #efd4ba;
+  border: none;
+  box-shadow: none !important;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #5f2424;
+  font-weight: bold;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.action:focus,
+.actions button,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link {
+  background: #5f2424;
+  border: 1px solid #efd4ba;
+  color: #efd4ba;
+  box-shadow: none;
+}
+
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"] {
+  background: #5f2424 !important;
+}
+
+.actions a:link:hover,
+.actions button:hover,
+.actions li input:hover,
+.actions li input[type="submit"]:hover,
+input[type="submit"]:hover, fieldset.actions a:hover {
+  background: none !important;
+  color: #efd4ba;
+  box-shadow: none;
+}
+
+#header .actions a:link:hover {
+  background: #2a0c0c !important;
+}
+
+#greeting .dropdown .menu a:hover,
+#header .dropdown .menu a:hover {
+  background: #5f2424 !important;
+}
+
+.splash .module h3 {
+  color: #efd4ba;
+  border-bottom: 1px solid #efd4ba;
+}
+
+.splash .news li {
+  border-bottom: 1px solid #efd4ba;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a,
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #efd4ba;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+  background: #2a0c0c;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #2a0c0c;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #efd4ba;
+}
+
+.listbox .index,
+.listbox,
+fieldset fieldset.listbox {
+  background: #2a0c0c;
+}
+
+dd.listbox.group,
+fieldset fieldset.listbox,
+.dashboard fieldset fieldset.listbox .index {
+  border: 1px solid #efd4ba;
+  box-shadow: none;
+}
+
+.dashboard .index {
+  border: none !important;
+}
+
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+select option,
+textarea,
+span.symbol.question,
+.own {
+  background: #2a0c0c !important;
+  color: #efd4ba !important;
+  border: 1px solid #efd4ba;
+  outline: #efd4ba;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #efd4ba;
+}
+
+span.delete {
+  background: #2a0c0c;
+}
+
+span.delete a {
+  color: #f2eadc;
+  font-weight: bold;
+}
+
+.delete a,
+span.delete {
+  box-shadow: -1px -1px 2px rgba(255,255,255.25);
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #2a0c0c;
+  border: 1px solid #efd4ba;
+}
+
+.dropdown {
+  background: #2a0c0c;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #2a0c0c;
+  color: #efd4ba;
+  border: 1px solid #efd4ba;
+}
+
+li.blurb {
+  border: 1px solid #efd4ba;
+}
+
+form dd.required {
+  color: #efd4ba;
+}
+
+form dt,
+.picture .header {
+  border-bottom: 1px solid #efd4ba;
+}
+
+.draft {
+  background: #2a0c0c;
+  color: #efd4ba;
+}
+
+#header h2,
+.draft .wrapper {
+  background: #2a0c0c;
+  border: 1px solid #efd4ba;
+}
+
+dt.comment.thread.count,
+dd.comment.thread.count {
+  border: none !important;
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #2a0c0c;
+}
+
+#modal,
+span.replied {
+  background: #2a0c0c;
+  color: #efd4ba;
+  border: 2px solid #efd4ba;
+}
+
+.thread .even {
+  background: #5f2424;
+}
+
+.unread,
+span.unread {
+  background: #2a0c0c;
+  color: #efd4ba;
+  font-weight: normal;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #2a0c0c;
+}
+
+h4.heading.byline {
+  background: #2a0c0c;
+  color: #efd4ba;
+}
+
+.current,
+.sorting .current {
+  background: #2a0c0c !important;
+  border: 1px solid #efd4ba;
+  color: #efd4ba;
+}
+
+#dashboard {
+  border: none !important;
+}
+
+#dashboard,
+#dashboard .primary,
+#dashboard .navigation {
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+#dashboard .current,
+#dashboard a:hover,
+#dashboard span {
+  background: #5f2424 !important;
+  color: #efd4ba !important;
+  box-shadow: none;
+}
+
+#dashboard.own,
+dl.meta,
+.group.listbox,
+.bookmark div.user {
+  border: 1px solid #efd4ba !important;
+}
+
+#dashboard a {
+  color: #efd4ba;
+}
+
+.bookmark .count a {
+  color: #2a0c0c !important;
+}
+
+.bookmark .count a:hover {
+  color: #efd4ba !important;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+input:focus,
+textarea:focus,
+li.relationships a,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+th,
+#dashboard .secondary,
+.secondary,
+.work.navigation .download,
+.javascript .work.navigation .download .secondary,
+.thread .even,
+.ui-datepicker tr:hover {
+  background: #2a0c0c;
+}
+
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header #search input:focus,
+#header #search input:hover,
+.heading,
+.group .heading,
+.filters dt a:hover {
+  color: #efd4ba;
+}
+
+body,
+.group,
+.group .group,
+.region,
+.flash,
+fieldset,
+fieldset fieldset ul,
+form dl,
+textarea,
+#main .verbose legend,
+.verbose fieldset,
+.notice,
+ul.notes,
+input,
+textarea,
+table,
+th,
+td:hover,
+tr:hover,
+.symbol .question:hover,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.autocomplete .notice,
+.system .intro,
+.comment_error,
+.kudos_error,
+div.dynamic,
+.dynamic form,
+#ui-datepicker-div,
+.ui-datepicker table,
+.annotation {
+  box-shadow: none;
+}
+
+.warnings .tag {
+  background: #5f2424;
+}
+
+.relationships .tag,
+.work .relationships a.tag {
+  background: #6b3434;
+  color: #efd4ba !important;
+}
+
+.characters .tag {
+  background: #584343;
+}
+
+a.tag:visited,
+.blurb h4 a:visited {
+  color: #efd4ba !important; /*Change to #ad9781 to retain the greyed links*/
+}
+
+dd.relationship.tags a {
+  color: #efd4ba !important;
+}
+
+.filters .expander {
+  color: #efd4ba !important;
+  font-weight: bold;
+}
+
+hr {
+  border-color: #efd4ba !important;
+}
+
+p.kudos {
+  background: url("https://raw.githubusercontent.com/xelasrecords/ao3-skins/main/img/LADS_Sylus_Emoji_Mephisto_1.png") no-repeat 3px 5px;
+  background-size: 42px;
+}
+
+#footer {
+  background: #5f2424;
+  color: #efd4ba;
+  border-top: 3px solid #efd4ba;
+}
+
+#footer a,
+#footer .heading,
+#footer button {
+  color: #efd4ba;
+}
