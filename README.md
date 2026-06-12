@@ -2,7 +2,7 @@
 **IMPORTANT:** Complete information and preview on the skin's features are on my Tumblr [@xelasrecords](https://xelasrecords.tumblr.com/). Send me an ask there if you encounter any issues.
 
 ## Tutorial:
-1. Select the desired [skin-name].css from my Github and copy the code.
+1. On my Github, go to the "css" folder, select the desired [skin-name].css, then copy the code.
 2. On AO3, go to “Hi, [username]” > “My Dashboard” > “Skins” > “Create New Skin”.
 3. Insert a unique title that nobody has used.
 4. Paste the code into the CSS text area on AO3.
