@@ -1,8 +1,8 @@
-# Xelasrecords' AO3 Site Skins
-**IMPORTANT:** Complete information and preview on the skins' features are on my Tumblr [@xelasrecords](https://xelasrecords.tumblr.com/). Send me an ask there if you encounter any issues.
+# Xelasrecords’ AO3 Site Skins
+**IMPORTANT:** Complete information and preview on the skins’ features are on my Tumblr [@xelasrecords](https://xelasrecords.tumblr.com/). Send me an ask there if you encounter any issues.
 
 ## Tutorial:
-1. On my Github, go to the "css" folder, select the desired [skin-name].css, then copy the code.
+1. On my Github, go to the “css” folder, select the desired [skin-name].css, then copy the code.
 2. On AO3, go to “Hi, [username]” > “My Dashboard” > “Skins” > “Create New Skin”.
 3. Insert a unique title that nobody has used.
 4. Paste the code into the CSS text area on AO3.
@@ -22,6 +22,12 @@
    ```
    a.tag:visited, .blurb h4 a:visited {
     color: #xxxxxx !important; /*alternative #xxxxxx is placed like this*/
+   }
+   ```
+4. If your search bar is too long that it’s pushed to the line below the other menus, decrease the width number below as necessary:
+   ```
+   #header #search .text {
+    width: 11em;
    }
    ```
 Don’t delete anything unless you know what you’re doing. Copy and paste is enough.
