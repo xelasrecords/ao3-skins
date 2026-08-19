@@ -24,7 +24,7 @@
     color: #xxxxxx !important; /*alternative #xxxxxx is placed like this*/
    }
    ```
-4. If your search bar is too long that it’s pushed to the line below the other menus, decrease the width number below as necessary:
+4. If your search bar is too long that it’s pushed to the line below the other menus, you can decrease the width number below as necessary:
    ```
    #header #search .text {
     width: 11em;
