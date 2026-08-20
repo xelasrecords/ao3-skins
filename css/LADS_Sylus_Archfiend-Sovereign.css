@@ -105,9 +105,6 @@ form.search input[type=submit],
 #greeting a.dropdown-toggle,
 #header .actions a {
   color: #efd4ba !important;
-}
-
-#greeting a.dropdown-toggle {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -115,6 +112,7 @@ form.search input[type=submit],
 #header .dropdown .menu,
 #header .dropdown:hover a {
   background: #2a0c0c;
+  text-shadow: none;
 }
 
 .dropdown-menu li,
