@@ -201,6 +201,7 @@ input[type="submit"] {
 }
 
 .actions a:link:hover,
+.actions a:visited:hover,
 .actions button:hover,
 .actions li input:hover,
 .actions li input[type="submit"]:hover,
@@ -208,6 +209,7 @@ input[type="submit"]:hover,
 fieldset.actions a:hover {
   background: none !important;
   color: #efd4ba;
+  border: 1px solid #efd4ba;
   box-shadow: none;
 }
 
@@ -367,21 +369,22 @@ dt.child {
   background: #2a0c0c;
 }
 
-#modal,
-span.replied {
-  background: #2a0c0c;
-  color: #efd4ba;
-  border: 2px solid #efd4ba;
-}
-
 .thread .even {
   background: #5f2424;
 }
 
+#modal,
 .unread,
-span.unread {
+span.replied {
   background: #2a0c0c;
   color: #efd4ba;
+  border: 1px solid #efd4ba;
+}
+
+span.unread {
+  background: #efd4ba;
+  color: #2a0c0c;
+  border: 1px solid #efd4ba;
   font-weight: normal;
 }
 
