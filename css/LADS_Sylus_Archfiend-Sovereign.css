@@ -6,6 +6,13 @@
   font-size: 130%;
 }
 
+a,
+a:focus,
+a:focus img,
+button:focus {
+  outline: none !important;
+}
+
 #main a,
 #main .heading {
   color: #efd4ba;
@@ -175,6 +182,19 @@ ul.notes a,
   font-weight: bold;
 }
 
+.notice a:hover,
+.notice a:visited:hover,
+.comment_notice a:hover,
+.kudos_notice a:hover,
+ul.notes a:hover,
+.caution a:hover,
+.error a:hover,
+.comment_error a:hover,
+.kudos_error a:hover,
+.alert.flash a:hover {
+    color: #efd4ba !important;
+}
+
 .actions a,
 .actions a:focus,
 .actions input:focus,
@@ -192,6 +212,7 @@ ul.navigation.actions li a,
   border: 1px solid #efd4ba;
   color: #efd4ba;
   box-shadow: none;
+  outline: none;
 }
 
 .actions li input,
@@ -200,6 +221,7 @@ input[type="submit"] {
   background: #5f2424 !important;
 }
 
+.action:link:hover,
 .actions a:link:hover,
 .actions a:visited:hover,
 .actions button:hover,
@@ -211,9 +233,42 @@ fieldset.actions a:hover {
   color: #efd4ba;
   border: 1px solid #efd4ba;
   box-shadow: none;
+  cursor: pointer;
 }
 
-.javascript .work.navigation .secondary {
+.actions li input:hover {
+  cursor: text;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.action {
+  background: none;
+  color: #efd4ba;
+  font-weight: normal;
+  border: none;
+}
+
+label.action:hover,
+input[type="checkbox"]
+input[type="radio"],
+.options label:hover,
+.filters .expander:hover,
+.filters .expandable label:hover,
+.bookmark input[type="checkbox"] + label:hover,
+.edit_preference label:hover,
+#inbox-filters label:hover {
+  box-shadow: none;
+  border: none;
+  color: #efd4ba !important;
+  background: #5f2424;
+  cursor: pointer;
+}
+
+.javascript .work.navigation .secondary,
+.javascript .work.navigation .download .secondary {
   box-shadow: none;
   border: 1px solid #efd4ba;
 }
@@ -286,11 +341,22 @@ select:focus,
 select option,
 textarea,
 span.symbol.question,
-.own {
+.own,
+.toggled form,
+.dynamic form {
   background: #2a0c0c !important;
   color: #efd4ba !important;
   border: 1px solid #efd4ba;
-  outline: #efd4ba;
+  outline: none;
+  box-shadow: none;
+}
+
+.comment fieldset {
+  border: none;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #efd4ba;
 }
 
 .autocomplete li.added,
@@ -418,6 +484,7 @@ h4.heading.byline {
 
 #dashboard .current,
 #dashboard a:hover,
+#dashboard a:focus,
 #dashboard span {
   background: #5f2424 !important;
   color: #efd4ba !important;
