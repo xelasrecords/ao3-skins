@@ -20,9 +20,19 @@
    You can also tweak the percentage to your liking instead.
 3. If you want the links you’ve pressed before to stay grey, go to the code below and replace the hex code with the alternative colour written next to it:
    ```
-   a.tag:visited, .blurb h4 a:visited {
+   a.tag:visited,
+   .blurb h4 a:visited {
     color: #xxxxxx !important; /*alternative #xxxxxx is placed like this*/
    }
+   ```
+   ADDITIONAL STEP FOR LIGHT MODE SKINS: also replace the hex code from this block:
+   ```
+   .warnings .tag:visited,
+   .relationships .tag:visited,
+   .work .relationships a.tag:visited,
+   .characters .tag:visited {
+	 color: #xxxxxx !important; /*alternative #xxxxxx is placed like this*/
+	}
    ```
 4. If your search bar is too long that it’s pushed to the line below the other menus, you can decrease the width number below as necessary:
    ```
