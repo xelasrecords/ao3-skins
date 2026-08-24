@@ -14,7 +14,7 @@ button:focus {
 }
 
 #main a,
-#main .heading, {
+#main .heading {
   color: #5f2424;
 }
 
