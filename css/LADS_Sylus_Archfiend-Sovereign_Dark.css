@@ -148,7 +148,8 @@ p.muted.notice {
   border: 1px solid #efd4ba;
 }
 
-.comment {
+.comment,
+.thread .even {
   color: #efd4ba;
   background: #2a0c0c;
   border: 1px solid #efd4ba !important;
@@ -435,10 +436,6 @@ dt.child {
   background: #2a0c0c;
 }
 
-.thread .even {
-  background: #5f2424;
-}
-
 #modal,
 .unread,
 span.replied {
@@ -529,7 +526,6 @@ th,
 .secondary,
 .work.navigation .download,
 .javascript .work.navigation .download .secondary,
-.thread .even,
 .ui-datepicker tr:hover {
   background: #2a0c0c;
 }
