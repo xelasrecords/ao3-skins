@@ -656,7 +656,12 @@ p.kudos {
 
 .draft {
   border: 2px dashed #5f2424;
-} 
+}
+
+form dl {
+  background: #fffbf7;
+  border: 1px solid #5f2424;
+}
 
 #footer {
   background: #5f2424;
