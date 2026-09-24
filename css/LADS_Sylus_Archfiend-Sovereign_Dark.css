@@ -400,7 +400,7 @@ form.verbose legend,
 }
 
 li.blurb {
-  border: 1px solid #efd4ba;
+  border: 1px solid #efd4ba !important;
 }
 
 form dd.required {
