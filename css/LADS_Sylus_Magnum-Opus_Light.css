@@ -419,7 +419,7 @@ form.verbose legend,
 }
 
 li.blurb {
-  border: 1px solid #5f2424;
+  border: 1px solid #5f2424 !important;
 }
 
 form dd.required {
