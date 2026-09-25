@@ -203,6 +203,18 @@ ul.notes a:hover,
     color: #fae3a2 !important;
 }
 
+.works-index .notice a {
+  color: #fffbf7 !important;
+  border: 1px solid #5f2424 !important;
+}
+
+.works-index .notice a:hover,
+.works-index .notice a:focus {
+  color: #5f2424 !important;
+  background: #fae3a2 !important;
+  border: 1px solid #5f2424 !important;
+}
+
 #main .actions a:focus,
 #main .actions input:focus,
 #main .action:focus,
