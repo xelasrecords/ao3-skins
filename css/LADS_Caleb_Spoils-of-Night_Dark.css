@@ -1,0 +1,650 @@
+.javascript {
+  background: #23180c;
+}
+
+#workskin {
+  font-size: 130%;
+}
+
+a,
+a:focus,
+a:focus img,
+button:focus {
+  outline: none !important;
+}
+
+#main a,
+#main .heading {
+  color: #ebdac6;
+}
+
+#main a:hover {
+  background: #8e4219;
+}
+
+#header {
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/xelasrecords/ao3-skins/main/img/LADS_Caleb_Spoils-of-Night_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center 40%;
+  background-size: cover;
+  min-height: 150px;
+}
+
+#header .logo {
+  content: url("https://raw.githubusercontent.com/xelasrecords/ao3-skins/main/img/LADS_Caleb_Emoji_Apple_1.png");
+  margin-right: 5px;
+}
+
+#header .heading {
+  height: 12em;
+}
+
+#header .heading a {
+  color: #ebdac6;
+}
+
+#header .primary {
+  display: flow;
+  align-items: center;
+  margin-bottom: 0px;
+  background: #c85f26;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#header .primary .dropdown-toggle {
+  padding-top: 6px;
+}
+
+#header form.search input[type="submit"],
+span.submit.actions input.button {
+  display: none !important;
+}
+
+#header input,
+#header #search>*,
+#header #search .submit {
+  background: transparent !important;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #23180c;
+  color: #ebdac6 !important;
+  border: 1px solid #23180c;
+}
+
+#header #search .text,
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul,
+.autocomplete .notice {
+  box-shadow: none;
+  background: #23180c;
+  color: #ebdac6 !important;
+  border: 1px solid #ebdac6;
+}
+
+.autocomplete .notice {
+  border: none;
+}
+
+.autocomplete div.dropdown li:hover {
+  background: #8e4219;
+  color: #ebdac6;
+}
+
+#header #search .text {
+  width: 11em;
+  background: #23180c !important;
+}
+
+#header #search:focus {
+  box-shadow: none;
+}
+
+#greeting p.icon {
+  box-shadow: none;
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.4));
+  -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.4));
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #ebdac6 !important;
+}
+
+#greeting a.dropdown-toggle,
+#header .heading a,
+#header .heading a:visited {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #23180c;
+  text-shadow: none;
+}
+
+.dropdown-menu li,
+.menu .dropdown-menu li {
+  border-bottom: 1px solid #ebdac6 !important;
+}
+
+#outer.wrapper {
+  background: #23180c;
+  color: #ebdac6;
+}
+
+p.muted.notice {
+  display: none;
+}
+
+.wrapper {
+  box-shadow: none !important;
+}
+
+.event .userstuff {
+  background: #8e4219;
+  border: 1px solid #ebdac6;
+}
+
+.comment,
+.thread .even {
+  color: #ebdac6;
+  background: #23180c;
+  border: 1px solid #ebdac6 !important;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  color: #8e4219;
+  background: #ebdac6;
+  border: none;
+  box-shadow: none !important;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #8e4219 !important;
+  font-weight: bold;
+}
+
+.notice a:hover,
+.notice a:visited:hover,
+.comment_notice a:hover,
+.kudos_notice a:hover,
+ul.notes a:hover,
+.caution a:hover,
+.error a:hover,
+.comment_error a:hover,
+.kudos_error a:hover,
+.alert.flash a:hover {
+    color: #ebdac6 !important;
+    box-shadow: none;
+}
+
+.works-index .notice a {
+  color: #ebdac6 !important;
+  border: 1px solid #8e4219 !important;
+}
+
+.works-index .notice a:hover,
+.works-index .notice a:focus {
+  color: #8e4219 !important;
+  background: #ebdac6 !important;
+  border: 1px solid #8e4219 !important;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.action:focus,
+.actions button,
+.actions button:focus,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link {
+  background: #8e4219;
+  border: 1px solid #ebdac6;
+  color: #ebdac6;
+  box-shadow: none;
+  outline: none;
+}
+
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"] {
+  background: #8e4219 !important;
+}
+
+.action:link:hover,
+.actions a:link:hover,
+.actions a:visited:hover,
+.actions button:hover,
+.actions li input:hover,
+.actions li input[type="submit"]:hover,
+input[type="submit"]:hover,
+fieldset.actions a:hover {
+  background: none !important;
+  color: #ebdac6;
+  border: 1px solid #ebdac6;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.actions li input:hover {
+  cursor: text;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.action {
+  background: none;
+  color: #ebdac6;
+  font-weight: normal;
+  border: none;
+}
+
+label.action:hover,
+input[type="checkbox"]
+input[type="radio"],
+.options label:hover,
+.filters .expander:hover,
+.filters .expandable label:hover,
+.bookmark input[type="checkbox"] + label:hover,
+.edit_preference label:hover,
+#inbox-filters label:hover {
+  box-shadow: none;
+  border: none;
+  color: #ebdac6 !important;
+  background: #8e4219;
+  cursor: pointer;
+}
+
+.javascript .work.navigation .secondary,
+.javascript .work.navigation .download .secondary {
+  box-shadow: none;
+  border: 1px solid #ebdac6;
+}
+
+#header .actions a:link:hover {
+  background: #23180c !important;
+}
+
+#greeting .dropdown .menu a:hover,
+#header .dropdown .menu a:hover {
+  background: #8e4219 !important;
+}
+
+.splash .module h3 {
+  color: #ebdac6;
+  border-bottom: 1px solid #ebdac6;
+}
+
+.splash .news li {
+  border-bottom: 1px solid #ebdac6;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a,
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #ebdac6;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+  background: #23180c;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #23180c;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #ebdac6;
+}
+
+.splash .social li a {
+    color: #ffffff !important;
+}
+
+.listbox .index,
+.listbox,
+fieldset fieldset.listbox {
+  background: #23180c;
+}
+
+dd.listbox.group,
+fieldset fieldset.listbox,
+.dashboard fieldset fieldset.listbox .index {
+  border: 1px solid #ebdac6;
+  box-shadow: none;
+}
+
+.dashboard .index {
+  border: none !important;
+}
+
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+select option,
+textarea,
+span.symbol.question,
+.own,
+.toggled form,
+.dynamic form {
+  background: #23180c !important;
+  color: #ebdac6 !important;
+  border: 1px solid #ebdac6;
+  outline: none;
+  box-shadow: none;
+}
+
+.comment fieldset {
+  border: none;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #ebdac6;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #ebdac6;
+}
+
+span.delete {
+  background: #23180c;
+}
+
+span.delete a {
+  color: #f2eadc;
+  font-weight: bold;
+}
+
+.delete a,
+span.delete {
+  box-shadow: -1px -1px 2px rgba(255,255,255.25);
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #23180c;
+  border: 1px solid #ebdac6;
+}
+
+.dropdown {
+  background: #23180c;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #23180c;
+  color: #ebdac6;
+  border: 1px solid #ebdac6;
+}
+
+li.blurb {
+  border: 1px solid #ebdac6 !important;
+}
+
+form dd.required {
+  color: #ebdac6;
+}
+
+form dt,
+.picture .header {
+  border-bottom: 1px solid #ebdac6;
+}
+
+.draft {
+  background: #23180c;
+  color: #ebdac6;
+}
+
+#header h2,
+.draft .wrapper {
+  background: #23180c;
+  border: 1px solid #ebdac6;
+}
+
+dt.comment.thread.count,
+dd.comment.thread.count {
+  border: none !important;
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #23180c;
+}
+
+#modal,
+.unread,
+span.replied {
+  background: #23180c;
+  color: #ebdac6;
+  border: 1px solid #ebdac6;
+}
+
+span.unread {
+  background: #ebdac6;
+  color: #8e4219;
+  border: 1px solid #ebdac6;
+  font-weight: normal;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #23180c;
+}
+
+h4.heading.byline {
+  background: #23180c;
+  color: #ebdac6;
+}
+
+.current,
+.sorting .current {
+  background: #23180c !important;
+  border: 1px solid #ebdac6;
+  color: #ebdac6;
+}
+
+#dashboard {
+  border: none !important;
+}
+
+#dashboard,
+#dashboard .primary,
+#dashboard .navigation {
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+#dashboard .current,
+#dashboard a:hover,
+#dashboard a:focus,
+#dashboard span {
+  background: #8e4219 !important;
+  color: #ebdac6 !important;
+  box-shadow: none;
+}
+
+#dashboard.own,
+dl.meta,
+.group.listbox,
+.bookmark div.user {
+  border: 1px solid #ebdac6 !important;
+}
+
+#dashboard a {
+  color: #ebdac6;
+}
+
+.bookmark .count a {
+  color: #23180c !important;
+}
+
+.bookmark .count a:hover {
+  color: #ebdac6 !important;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+input:focus,
+textarea:focus,
+li.relationships a,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+th,
+#dashboard .secondary,
+.secondary,
+.work.navigation .download,
+.javascript .work.navigation .download .secondary,
+.ui-datepicker tr:hover {
+  background: #23180c;
+}
+
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header #search input:focus,
+#header #search input:hover,
+.heading,
+.group .heading,
+.filters dt a:hover {
+  color: #ebdac6;
+}
+
+body,
+.group,
+.group .group,
+.region,
+.flash,
+fieldset,
+fieldset fieldset ul,
+form dl,
+textarea,
+#main .verbose legend,
+.verbose fieldset,
+.notice,
+ul.notes,
+input,
+textarea,
+table,
+th,
+td:hover,
+tr:hover,
+.symbol .question:hover,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.autocomplete .notice,
+.system .intro,
+.comment_error,
+.kudos_error,
+div.dynamic,
+.dynamic form,
+#ui-datepicker-div,
+.ui-datepicker table,
+.annotation {
+  box-shadow: none;
+}
+
+.warnings .tag {
+  background: #8e4219;
+}
+
+.relationships .tag {
+  background: #854f30;
+  color: #ebdac6 !important;
+}
+
+.characters .tag {
+  background: #6a5343;
+}
+
+a.tag:visited,
+.blurb h4 a:visited {
+  color: #ebdac6 !important; /*Change to #dcb894 to retain the greyed links*/
+}
+
+dd.relationship.tags a {
+  color: #ebdac6 !important;
+}
+
+.filters .expander {
+  color: #ebdac6 !important;
+  font-weight: bold;
+}
+
+hr {
+  border-color: #ebdac6 !important;
+}
+
+p.kudos {
+  background: url("https://raw.githubusercontent.com/xelasrecords/ao3-skins/main/img/LADS_Caleb_Emoji_Apple_1.png") no-repeat 3px 5px;
+  background-size: 45px;
+}
+
+.draft {
+  border: 2px dashed #ebdac6;
+}
+
+form dl {
+  background: #23180c;
+  border: 1px solid #ebdac6;
+}
+
+#footer {
+  background: #8e4219;
+  color: #ebdac6;
+  border-top: 3px solid #ebdac6;
+}
+
+#footer a,
+#footer .heading,
+#footer button {
+  color: #ebdac6;
+}
