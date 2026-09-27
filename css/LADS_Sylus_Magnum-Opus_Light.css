@@ -624,8 +624,7 @@ a.tag:visited,
   color: #fffbf7 !important;
 }
 
-.relationships .tag,
-.work .relationships a.tag {
+.relationships .tag {
   background: #9d5d5d;
   color: #fffbf7 !important;
 }
@@ -637,7 +636,6 @@ a.tag:visited,
 
 .warnings .tag:visited,
 .relationships .tag:visited,
-.work .relationships a.tag:visited,
 .characters .tag:visited {
   color: #fffbf7 !important; /*Change to #dac0c0 to retain the greyed links*/
 }
