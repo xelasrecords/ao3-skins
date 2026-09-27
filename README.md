@@ -29,7 +29,6 @@
    ```
    .warnings .tag:visited,
    .relationships .tag:visited,
-   .work .relationships a.tag:visited,
    .characters .tag:visited {
 	 color: #xxxxxx !important; /*alternative #xxxxxx is placed like this*/
 	}
