@@ -593,8 +593,7 @@ div.dynamic,
   background: #5f2424;
 }
 
-.relationships .tag,
-.work .relationships a.tag {
+.relationships .tag {
   background: #6b3434;
   color: #efd4ba !important;
 }
